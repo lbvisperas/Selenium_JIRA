@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[>>>>> Executing JiraTest1 <<<<<]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Running test in Chrome]]>
+    </line>
+    <line>
+      <![CDATA[Opened https://frit.rickcloud.jp/jira/secure/RapidBoard.jspa?rapidView=72]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[>>>>> Terminating JiraTest <<<<<]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73392" started-at="2018-05-31T09:49:28Z" finished-at="2018-05-31T09:50:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73392" started-at="2018-05-31T09:49:28Z" finished-at="2018-05-31T09:50:42Z">
+      <class name="acn.test.JiraTest">
+        <test-method status="FAIL" signature="jiratest()[pri:0, instance:acn.test.JiraTest@4f7d0008]" name="jiratest" duration-ms="61943" started-at="2018-05-31T17:49:28Z" finished-at="2018-05-31T17:50:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at common.BasePage.enterText(BasePage.java:104)
+	at acn.pageobjects.JiraHomepage.enterUsername(JiraHomepage.java:21)
+	at acn.test.JiraTest.jiratest(JiraTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[>>>>> Executing JiraTest1 <<<<<]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Running test in Chrome]]>
+            </line>
+            <line>
+              <![CDATA[Opened https://frit.rickcloud.jp/jira/secure/RapidBoard.jspa?rapidView=72]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jiratest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:acn.test.JiraTest@4f7d0008]" name="endTest" is-config="true" duration-ms="11340" started-at="2018-05-31T17:50:30Z" finished-at="2018-05-31T17:50:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[>>>>> Terminating JiraTest <<<<<]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- acn.test.JiraTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
